@@ -1,7 +1,7 @@
 {
-  "name": "xai-intelligence-workspace",
+  "name": "xai_new_template",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,9 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^7.3.1"
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
   },
   "dependencies": {
-    "three": "^0.170.0"
+    "three": "^0.182.0"
   }
 }
